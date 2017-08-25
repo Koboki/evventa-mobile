@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Evventa</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <div class="logo pattern">
+    <div class="icon-logo"></div>
+    <p class="logo-text">
+      الاستعلام عن الأشخاص
+    </p>
+  </div>
+
+  <div class="wrapper">
+    <div class="cpc-logo"></div>
+    <label class="field-wrapper">
+      <span class="icon icon-user"></span>
+      <input class="field" type="text" placeholder="اسم المستخدم">
+    </label>
+    <label class="field-wrapper">
+      <span class="icon icon-lock"></span>
+      <input class="field" type="password" placeholder="كلمة المرور">
+    </label>
+    <button type="button" class="btn reverse">دخول</button>
+    <p class="recover-pass">نسيت كلمة المرور؟ <span class="link text-bold">إستعادة</span></p>
+  </div>
+  
+  <script>
+  
+    document.querySelector(".btn").addEventListener("click", function (){
+      document.body.classList.toggle("blue");
+    });
+    
+  </script>
+</body>
+
+</html>
